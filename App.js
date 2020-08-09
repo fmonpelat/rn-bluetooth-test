@@ -82,7 +82,7 @@ const App = () => {
       await SplashScreen.hideAsync();
     }
     if (isLoaded && isReady) hideSplashScreen();
-  }, [isReady])
+  }, [isReady,isLoaded])
 
   if(!isReady)
   {

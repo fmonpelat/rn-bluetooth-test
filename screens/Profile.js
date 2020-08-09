@@ -287,7 +287,7 @@ class Profile extends React.Component {
 const styles = StyleSheet.create({
   profile: {
     marginTop: Platform.OS === "android" ? -HeaderHeight : 0,
-    // marginBottom: -HeaderHeight * 2,
+    marginBottom: -HeaderHeight * 2,
     flex: 1
   },
   profileContainer: {
